@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Apr 13, 2017, 7:50:49 PM
+    Author     : Mark Rustad
+*/
+
+#showDiv{
+    margin-top: 10px;
+    display: none;
+    text-align: left;
+}
+
+.dot{
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    padding: 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #222222;
+}
+
+#imageShowDiv{
+    margin-top: 5px;
+}
+
+#imageShowDiv img{
+    max-width: 100%;
+    max-height: 400px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#dotsDiv{
+    margin-bottom: 10px;
+}
+
+#slashQuote{
+    margin-bottom: 20px;
+    background: darkred;
+    color: white;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+
+/* Vanessa's Code for Speakers */
+.col-md-6 img {
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.col-md-4 img {
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+section#services {
+    margin: 0 auto;
+    width: 100%;
+}
+
+section#stanmore {
+    background-color: #eeeeee;
+}
+
+section#contact {
+    background-image: url("../img/input_plug.png");
+    background-color: white;
+}
+
+
+section#contact .section-heading {
+    color: black;
+}
+
+.intro-text a {
+    background-color: #7e0d0d;
+}
+
+/*Added 4/18*/
+.row#sitemap h4 { 
+    color: #8b0000;
+}
+
+.row#sitemap, .row#sitemap ul {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.row#sitemap ul > li > a:hover,
+.row#sitemap ul > li > a:active,
+.row#sitemap ul > li > a:focus{
+    text-decoration: none;
+}
+
+.copyright, .social-buttons {
+    float: left;
+}
+
+a:hover {
+    color: #222222;
+}
+
+a:focus {
+    color: inherit;
+}
+
+section#contact {
+    background-size: cover;
+}
+
+@media (max-width: 992px) {
+    
+    .social-buttons {
+        float: right;
+    }
+}
+
+#messageBtn{
+    padding: 20px 40px;
+}
